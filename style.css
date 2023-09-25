@@ -2,7 +2,18 @@
 {background:#000000;
 	color:#fff;
 	font-family:sans-serif;
-	margin:0}h1{font-size:1.7rem;
+	margin:0}
+        @font-face {
+            font-family: "OPPOSans";
+            src: url('font/OPPOSans3.0En-VF.ttf') format('truetype');
+        }
+
+        body {
+            font-family: "OPPOSans", sans-serif;
+            font-size: 17px;
+        }
+
+	h1{font-size:1.7rem;
 		margin-top:1rem;
 		background:#2f3136;
 		color:#fff;padding:.2em 1em;
